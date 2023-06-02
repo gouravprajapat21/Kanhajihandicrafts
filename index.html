@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/main.css">
 
 </head>
 <body>
@@ -18,7 +18,7 @@
 
 <header>
 
-    <a href="#popular" class="logo"><img src="images/Kanha (2).png" alt=""></a>
+    <a href="#popular" class="logo"><img src="/images/Kanha (2).png" alt=""></a>
 
     <div id="menu-bar" class="fas fa-bars"></div>
 
@@ -55,8 +55,8 @@
 <section class="speciality" id="speciality">
 
     <h1 class="heading"> our <span>speciality</span> </h1>
-
     <div class="box-container">
+
 
         <div class="box">
             <img class="image" src="images/IMG_2976.jpg" alt="">
@@ -394,16 +394,15 @@
             <img src="images/06a9ccc351943f255d16563ea3258a35.png" alt="">
         </div>
 
-        <form action="">
-
+        <form action="https://formspree.io/f/xlekyeqd" method="post">
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+                <input name="name" type="text" placeholder="name" required>
+                <input name="email" type="email" placeholder="email" required>
             </div>
 
             <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="product name">
+                <input name="number" type="number" placeholder="number" required>
+                <input name="pname" type="text" placeholder="product name" required>
             </div>
 
             <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
@@ -462,7 +461,7 @@
 
 
 <!-- custom js file link  -->
-<script src="app.js"></script>
+<script src="/app.js"></script>
 
 
 </body>
